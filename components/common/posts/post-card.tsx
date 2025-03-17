@@ -17,7 +17,7 @@ interface PostCardProps {
 
 function PostCard({ className, imageSrc, label, title, date, readTime, linkHref }: PostCardProps) {
 	return (
-		<div className={cn(className, 'h-[500px] md:h-[717px] rounded-3xl flex flex-col gap-4')}>
+		<div className={cn(className, 'min-h-[500px] md:h-[717px] rounded-3xl flex flex-col gap-4')}>
 			<Image src={imageSrc} alt={title} width={500} height={717} className="w-full object-cover" />
 
 			<div>
