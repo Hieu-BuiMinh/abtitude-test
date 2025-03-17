@@ -9,7 +9,7 @@ const posts = [
 		title: 'Tại sao BOM quan trọng trong quản lý sản xuất?',
 		date: '17/11/2022',
 		readTime: '10 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 	{
 		imageSrc: '/assets/images/image.png',
@@ -17,7 +17,7 @@ const posts = [
 		title: 'Cách xây dựng chiến lược tài nguyên hiệu quả',
 		date: '25/12/2022',
 		readTime: '12 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 	{
 		imageSrc: '/assets/images/image.png',
@@ -25,7 +25,7 @@ const posts = [
 		title: 'Làm thế nào để tối ưu hóa quy trình sản xuất?',
 		date: '03/02/2023',
 		readTime: '15 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 	{
 		imageSrc: '/assets/images/image.png',
@@ -33,7 +33,7 @@ const posts = [
 		title: 'Tại sao BOM quan trọng trong quản lý sản xuất?',
 		date: '17/11/2022',
 		readTime: '10 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 	{
 		imageSrc: '/assets/images/image.png',
@@ -41,7 +41,7 @@ const posts = [
 		title: 'Cách xây dựng chiến lược tài nguyên hiệu quả',
 		date: '25/12/2022',
 		readTime: '12 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 	{
 		imageSrc: '/assets/images/image.png',
@@ -49,7 +49,7 @@ const posts = [
 		title: 'Làm thế nào để tối ưu hóa quy trình sản xuất?',
 		date: '03/02/2023',
 		readTime: '15 phút đọc',
-		linkHref: '/',
+		linkHref: '/products',
 	},
 ]
 

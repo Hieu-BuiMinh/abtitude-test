@@ -1,8 +1,12 @@
 import MainLayout from '@/components/common/layouts/main-layout'
-import React from 'react'
+import ProductPageView from '@/views/routes/product/pages/product.page'
 
 function ProductPage() {
-	return <MainLayout>ProductPage</MainLayout>
+	return (
+		<MainLayout>
+			<ProductPageView />
+		</MainLayout>
+	)
 }
 
 export default ProductPage

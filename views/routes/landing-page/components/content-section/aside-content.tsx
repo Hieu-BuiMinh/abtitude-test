@@ -3,6 +3,7 @@ import { Input } from '@/components/ui/input'
 import AsideCategory from '@/views/routes/landing-page/components/content-section/category'
 import HeadingRibbon from '@/views/routes/landing-page/components/content-section/heading-ribbon'
 import { Search } from 'lucide-react'
+import Image from 'next/image'
 import React from 'react'
 
 const categories = [
@@ -32,7 +33,9 @@ function AsideContent() {
 
 			<HeadingRibbon
 				className="col-span-2"
-				title={<p className="mt-48 mb-10 z-10">Gia nhập cộng đồng FMRP - Kết nối, chia sẻ, cùng phát triển!</p>}
+				title={
+					<Image src="/assets/images/Group 21.png" alt={'imageAlt'} width={300} height={300} className="mt-45 mb-5" />
+				}
 				buttonLabel="Tham Gia Ngay"
 				buttonLink="/"
 				imageSrc="/assets/images/1425926236.png"

@@ -10,7 +10,7 @@ interface HeadingRibbonProps {
 	title: string | React.ReactNode
 	buttonLabel: string
 	buttonLink: string
-	imageSrc: string
+	imageSrc?: string
 	imageAlt: string
 	type?: 'vertical' | 'horizontal'
 }
@@ -24,13 +24,18 @@ function HeadingRibbon({ className, title, buttonLabel, buttonLink, imageSrc, im
 				className
 			)}
 		>
-			<Image
-				src={imageSrc}
-				alt={imageAlt}
-				width={300}
-				height={300}
-				className={cn('absolute bottom-0 w-[472px] right-0 z-0', type === 'vertical' && '-top-20 z-0 -right-20 size-[372px] object-contain')}
-			/>
+			{imageSrc && (
+				<Image
+					src={imageSrc}
+					alt={imageAlt}
+					width={300}
+					height={300}
+					className={cn(
+						'absolute bottom-0 w-[472px] right-0 z-0',
+						type === 'vertical' && '-top-20 z-0 -right-20 size-[372px] object-contain'
+					)}
+				/>
+			)}
 			<div
 				className={cn(
 					'flex flex-col justify-between text-white md:w-[376px] sm:w-full',
